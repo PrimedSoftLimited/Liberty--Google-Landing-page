@@ -1,0 +1,137 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height: 100hv;
+}
+header{
+    text-align: right;
+    padding-top: 30px;
+    text-decoration-color: rgb(116, 113, 113)
+}
+.app {
+    color: gray;
+}
+header a:link {
+    color:gray;
+    text-decoration: none;
+
+}
+header a:link:hover{
+    text-decoration: underline;
+}
+.the
+{
+background-color:rgba(116, 116, 231, 0.897);
+padding:5px;
+border:2px 5px;
+border-radius: 2px;
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(255, 255, 255);
+}
+.google
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 180px;
+margin-bottom:20px;
+width:200px; 
+}
+.text input[type="text"]
+{
+    width:40%;
+    margin:auto;
+    display: block;
+    height:30px;
+    border: 1px solid rgba(0,0,0,0.2);
+    box-shadow:5px 5px 4px rgba(197, 193, 193,0.6);
+    padding:10px;
+    border-radius: 4px;
+    transition: 0.1s ease-in;
+}
+.text input[type="text"]:hover{
+    transition: 0.2s ease-out;
+    box-shadow:10px 10px 8px rgba(197, 193, 193,0.6);
+}
+.text i
+{ 
+    color: rgb(255, 0, 0);
+    position: absolute;
+    margin-top: -30px;
+    font-size: 20px;
+    margin-left: 1050px;
+}
+.goobutton
+{
+margin:auto;
+margin-left: 42%;
+
+
+}
+
+.goobutton button[type="submit"]{
+padding:10px;
+margin:10px;
+margin-top: 28px;
+border:none;
+background-color: rgba(231, 222, 222, 0.89);
+font-weight: 600;
+color:rgba(0,0,0,0.6);
+border-radius: 4px;
+transition: 0.2s ease-in-out;
+}
+.goobutton button[type="submit"]:hover
+{
+    transition: 0.2s ease-in-out;
+    border: 1px solid rgba(0,0,0,0.2);
+    color: rgba(0,0,0,0.8);
+}
+.links{
+    text-align: center;
+}
+.links a{
+    text-decoration-line: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.links .offered{
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer
+{
+    width: 100%;
+    height: auto;
+    background: rgba(0,0,0,0.2);
+    margin-top: 10px;
+}
+footer a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgba(97, 95, 95, 0.8);
+}
+footer .ng
+{
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    padding: 20px;
+}
+footer .last
+{
+    padding: 10px;
+}
+footer .last .fest
+{
+    margin-top: -15px;
+    margin-left: 15px;
+}
+footer .last .second{
+    float: right;
+    margin-top: -15px;
+}
+footer a{
+    margin: 1px;
+}
+footer a:hover{text-decoration:underline;
+}
